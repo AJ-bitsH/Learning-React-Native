@@ -11,7 +11,7 @@ import { LinearGradient } from "expo-linear-gradient";
 const App = () => (
   <View style={styles.container}>
     <LinearGradient
-      colors={["#09203f", "#537895"]}
+      colors={["#FFBB33", "#AC33FF"]}
       start={[0.9, 0.9]}
       style={styles.linearGradient}
     >
@@ -43,13 +43,13 @@ const styles = StyleSheet.create({
     width: 250,
     height: 44,
     padding: 10,
-    borderWidth: 1,
+    borderWidth: 3,
     borderColor: "powderblue",
     borderRadius: 25,
     marginBottom: 10,
     backgroundColor: "rebeccapurple",
     justifyContent: "center",
-    top: 50,
+    top: 80,
   },
   image: {
     alignItems: "center",
@@ -58,7 +58,7 @@ const styles = StyleSheet.create({
     width: 400,
   },
   text: {
-    color: "grey",
+    color: "white",
     fontSize: 30,
     fontWeight: "bold",
     alignSelf: "center",
